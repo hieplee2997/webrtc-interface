@@ -97,6 +97,8 @@ abstract class RTCPeerConnection {
 
   Future<bool> removeTrack(RTCRtpSender sender);
 
+  Future<void> setAllTransceiverToOnlyDirection(TransceiverDirection direction);
+
   /// 'audio|video', { 'direction': 'recvonly|sendonly|sendrecv' }
   Future<RTCRtpTransceiver> addTransceiver(
       {MediaStreamTrack track,
