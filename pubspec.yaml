@@ -1,5 +1,5 @@
 name: webrtc_interface
-publish_to: none
+publish_to: 'none'
 description: WebRTC Interface for Dart-Web/Flutter.
 version: 1.0.2
 homepage: https://flutter-webrtc.org
